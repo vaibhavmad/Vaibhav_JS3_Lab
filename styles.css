@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/mountains-8314422_1920.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.city-list-info {
+    font-size: 18px;
+    color: lightgray;
+    margin-bottom: 10px;
+}
+
+#city-input {
+    padding: 15px;
+    font-size: 20px;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
+
+.date {
+    font-size: 16px;
+    margin-top: -10px;
+    color: lightgray;
+}
+
+.temperature {
+    font-size: 72px;
+    font-weight: bold;
+    font-family: 'Bungee', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.degree-symbol {
+    font-size: 36px;
+    vertical-align: super;
+}
+
+.weather, .min-max-temp {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: 'Bungee', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: -10px;
+}
